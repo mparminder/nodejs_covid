@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "1c6a7794-caee-49d8-8f33-3de5128e1926",
+		"name": "Covid",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch District By State ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/common/districts/15",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"common",
+						"districts",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch States",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/common/states",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"common",
+						"states"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
